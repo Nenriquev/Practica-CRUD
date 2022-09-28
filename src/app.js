@@ -4,7 +4,9 @@ const app = express();
 const path = require("path");
 const methodOverride = require("method-override");
 
+
 const mainRouter = require("./routes/mainRouter");
+const productsRouter = require("./routes/productRouter");
 
 // Configuración
 // ************ Template Engine - (don't touch) ************
@@ -17,7 +19,8 @@ app.use(express.json());
 
 // Routers
 app.use("/", mainRouter);
+app.use("/products", productsRouter);
 
-app.listen(3000, () => {
-  console.log("Servidor arriba en el puerto 3000");
+app.listen(3004, () => {
+  console.log("Servidor arriba en el puerto 3004");
 });

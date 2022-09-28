@@ -1,20 +1,51 @@
 [
     {
         "id": 1,
-        "name": "Esparragos",
-        "description": "asdasd",
-        "price": "600"
+        "name": "Esparragos tiernos",
+        "description": "Salteados con semillas de sesamo y salsa alioli",
+        "price": 650,
+        "img": "Esparragos-tiernos.png"
     },
     {
         "id": 2,
-        "name": "Risotto",
-        "description": "Risotto con berenjena y queso de cabra",
-        "price": 800
+        "name": "Milanesa con papas",
+        "description": "Milanesa de ternera o pollo con papas fritas",
+        "price": 1200,
+        "img": "Milanesa-con-papas.jpg"
     },
     {
         "id": 3,
-        "name": "Milanesa",
-        "price": "500",
-        "description": "La mejor milanesa"
+        "name": "Risotto de Berenjenas",
+        "description": "Risotto suelto de berenjenas en escabeche",
+        "price": 800,
+        "img": "Risotto-de-Berenjenas.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Helado de oreo",
+        "description": "Helado de vainilla con crema oreo",
+        "price": 300,
+        "img": "Helado-de-oreo.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Flan de dulce de leche",
+        "description": "Flan de dulce de leche acaramelado",
+        "price": 400,
+        "img": "Flan-de-dulce-de-leche.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Raviolis a la bolognesa",
+        "description": "Raviolis rellenos de carne de ternera con salsa bolognesa",
+        "price": "900",
+        "img": "Raviolis-a-la-bolognesa.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Pollo frito",
+        "description": "pollo frito",
+        "price": 850,
+        "img": "Pollo-frito.jpg"
     }
 ]

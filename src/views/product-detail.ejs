@@ -25,18 +25,18 @@
       <div class="wrap-product">
         <article>
           <div class="img-container">
-            <img src="/img/principal.jpg" class="img-dish" alt="img-dish">
+            <img src="/img/<%= product.img %> " class="img-dish" alt="img-dish">
           </div>
           <p>informacion del plato:  </p>
           <ul>
             <li>
-                Nombre:
+                Nombre: <%= product.name %> 
             </li>
             <li>
-                Descripcion: 
+                Descripcion: <%= product.description %> 
             </li>
             <li>
-                Precio:
+                Precio:<%= product.price %> 
             </li>
           </ul>
         </article>

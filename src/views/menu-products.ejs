@@ -30,23 +30,29 @@
   
       <section class="menu-wrap">
 
-            <article>
-              <div class="img-container">
-                <img src="/img/principal.jpg" alt="plato">
-              </div>
-              <p>informacion del plato:</p>
-              <ul>
-                <li>
-                    Nombre:   
-                </li>
-                <li>
-                    Descripcion: 
-                </li>
-                <li>
-                    Precio:  
-                </li>
-              </ul>
-            </article>
+        <% products.forEach(element => { %>
+
+          <article>
+            <div class="img-container">
+              <img src="/img/<%= element.img %>" alt="plato">
+            </div>
+            <p>Informacion del plato:</p>
+            <ul>
+              <li>
+                  Nombre: <%= element.name %> 
+              </li>
+              <li>
+                  Descripcion: <%= element.description %> 
+              </li>
+              <li>
+                  Precio:  <%= element.price %> $
+              </li>
+            </ul>
+          </article>
+         
+        <% }) %>
+
+           
             
       </section>
     </div>

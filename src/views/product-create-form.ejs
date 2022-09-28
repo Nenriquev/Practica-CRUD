@@ -26,7 +26,7 @@
                 Creacion de producto:
             </h1>
             <div class="form-container">
-                <form action="#"  method="">
+                <form action="/products/create"  method="POST" enctype="multipart/form-data">
           
                     <div class="field-wrap">
                         <label for="name">Nombre de plato:</label>
@@ -41,6 +41,11 @@
                     <div class="field-wrap" >
                         <label for="description">Descripcion:</label>
                         <textarea name="description" id="description"></textarea>
+                    </div>
+
+                    <div class="field-wrap" >
+                        <label for="description">Imagen:</label>
+                        <input type="file" name="productImg">
                     </div>
                       
                     <div class="field-wrap">
